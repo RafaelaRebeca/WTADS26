@@ -1,0 +1,221 @@
+
+/*APPETIZERS SECTION---------------------------------------------------------*/
+
+#menu-header-image{
+    background-image: url(imagens/menu-header-image.png);
+    background-size: cover;
+    height: 92vh;
+    display: flex;
+    align-items: last baseline;
+    justify-content: baseline;
+}
+
+#menu-header-bottom-text{
+    color: #f4e8cf;
+    font-size: 600%;
+    font-family: "Italiana", serif;
+}
+
+#appetizers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14em;
+    background-color: #EDEEC4;
+}
+
+#appetizers #left-side h1{
+    color: #676d08 ;
+    font-family: "Italiana", serif;
+    font-size: 1000%;
+    margin-bottom: 1em;
+    text-align: right;
+    font-weight: 100;
+}
+
+#left-side figure{
+    text-align: right;
+}
+
+#appetizers #right-side p{
+    margin: 1em;
+    font-size: 200%;
+    font-family: "Inter", serif;
+    font-weight: 120;
+}
+
+#appetizers #right-side{
+    margin-top: 14em;
+    margin-bottom: 35em;
+}
+ 
+#new-appe{
+    display: flex;
+}
+
+#appetizers #right-side h2{
+    font-family: "Inter", serif;
+    font-weight: 400;
+    font-size: 200%;
+}
+
+
+
+/*MAIN COURSES SECTION ---------------------------------------------------------*/
+
+#main-courses{
+    background-color: #156464;
+    height: 150em;
+}
+#first-part-main-courses{
+    display: flex;
+    justify-content: center;
+    gap: 5em;
+    align-items: center;
+}
+#main-courses h1{
+    color: #ffff ;
+    font-family: "Italiana", serif;
+    font-size: 1000%;
+    text-align: center;
+    font-weight: 50;
+}
+
+.container{
+    margin: 0 auto;
+    display: flex;
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.panel{
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 20vh;
+    flex: 0.5;
+    margin: 20px;
+    border-radius: 40px;
+    transition: all 700ms ease-in;
+}
+
+.panel.active{
+    flex: 0.8;
+}
+
+@media(max-width:480px){
+    .container{
+        width: 100vw;
+    }
+
+}
+
+#second-part-main-courses{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10em;
+    margin-top: 8em;
+}
+
+#main-courses #left-side h2, #main-courses #right-side h2{
+    color: white;
+    font-family: "Inter", serif;
+    font-weight: 400;
+    font-size: 200%;
+}
+
+#main-courses #left-side p, #main-courses #right-side p{
+    color: white;
+    margin: 1em;
+    font-size: 200%;
+    font-family: "Inter", serif;
+    font-weight: 120;
+}
+
+
+
+/*DESSERTS SECTION ---------------------------------------------------------*/
+
+#desserts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20em;
+    background-color: #edc89d;
+}
+
+#desserts h1{
+    color: #6f1c1c ;
+    font-family: "Italiana", serif;
+    font-size: 1000%;
+    margin-bottom: 1em;
+    text-align: left;
+    font-weight: 100;
+    margin-top: 1em;
+}
+
+
+#desserts h2{
+    font-family: "Inter", serif;
+    font-weight: 400;
+    font-size: 200%;
+}
+
+#desserts p{
+    margin: 1em;
+    font-size: 200%;
+    font-family: "Inter", serif;
+    font-weight: 120;
+}
+
+#desserts figure img{
+    position: relative;
+    top: -400px;
+}
+
+
+
+/*DRINK SECTION-------------------------------------------------*/
+
+
+#drinks{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8em;
+    background-color: #fff8ed;
+}
+
+#drinks h1{
+    color: #0b4960;
+    font-family: "Italiana", serif;
+    font-weight: 100;
+    font-size: 1200%;    
+    transform: rotate(-90deg);
+
+}
+
+#drinks figure{
+    margin-top: 4em;
+}
+
+#drinks h2{
+    font-family: "Inter", serif;
+    font-weight: 400;
+    font-size: 200%;
+}
+
+#drinks p{
+    margin: 1em;
+    font-size: 200%;
+    font-family: "Inter", serif;
+    font-weight: 120;
+}
+
+#extra-space-bg-drinks{
+    background-color: #fff8ed;
+    height: 30em;
+}

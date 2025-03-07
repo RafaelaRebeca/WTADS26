@@ -1,0 +1,163 @@
+
+body{
+    background-color: #192B43;
+}
+
+#space-meet-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5em;
+}
+
+#space-meet-section p{
+    font-family: "Italiana", serif;
+    font-size: 800%;
+    color: white;
+    text-align: right;
+}
+
+#space-meet-section figure{
+    margin-top: 5em;
+    padding: 5em;
+}
+
+#space-vector figure{
+    padding: 20em;
+    text-align: center;
+}
+
+#beach-area-section{
+    background-color: #FDE8D1;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 10em;
+    height: 50em;
+}
+
+#beach-area-left-section figure{
+    position: relative;
+    top: -200px;
+    bottom: -400px;
+}
+
+
+#beach-area-right-section {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-around;
+}
+
+#beach-area-right-section h1{
+    font-family: "Italiana", serif;
+    font-size: 800%;
+    color: #192B43;
+    text-align: left;
+    font-weight: 50;
+}
+
+#beach-area-right-section p{
+    font-family: "Italiana", serif;
+    font-size: 300%;
+    color: #192B43;
+    text-align: left;
+    max-width: 17em;
+}
+
+#nature-section{
+    margin: 20em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20em;
+    margin-top: 60em;
+}
+
+#nature-left-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30em;
+}
+
+#nature-left-title{
+    background-color: #FDE8D1;
+    height: 25em;
+    width: 50em;
+    border-radius: 150px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#nature-left-title p#upper-case{
+    color: #4C0B0C ;
+    font-family: "Italiana", serif;
+    font-size: 800%;
+    font-weight: 50;
+    text-align: center;
+}
+
+#nature-left-title p#lower-case{
+    color: #4C0B0C ;
+    font-family: "Italianno", cursive;
+    font-size: 800%;
+    font-weight: 50;
+    text-align: center;
+}
+
+#nature-left-text p{
+    color: #FDE8D1;
+    max-width: 14em;
+    font-size: 300%;
+    font-family: "Italiana", serif;
+    text-align: center;
+    margin-top: -5em;
+    letter-spacing: 2px;
+}
+
+
+#kitchen-section{
+    background-color: #E3CAA1;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 10em;
+    height: 50em;
+    margin-top: 50em;
+    margin-bottom: 50em;
+}
+
+#kitchen-left-section figure{
+    position: relative;
+    top: -150px;
+    bottom: -400px;
+}
+
+
+#kitchen-right-section {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    justify-content: space-around;
+}
+
+#kitchen-right-section h1{
+    font-family: "Italiana", serif;
+    font-size: 800%;
+    color: #192B43;
+    text-align: right;
+    font-weight: 50;
+}
+
+#kitchen-right-section p{
+    font-family: "Italiana", serif;
+    font-size: 300%;
+    color: #192B43;
+    text-align: left;
+    max-width: 17em;
+}

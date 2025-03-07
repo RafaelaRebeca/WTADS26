@@ -1,0 +1,101 @@
+#extra-space-reservation{
+    background-color: black;
+    height: 20em;
+}
+
+#bg-reservas{
+    height: fit-content;
+    background-image: url(../imagens/book-image.avif);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#reservas{
+    margin-top: 8em;
+    margin-bottom: 8em;
+    background-color: #acacac25;
+    backdrop-filter: blur(12px);
+    width: fit-content;
+}
+
+#reservas h1{
+    color: black;
+    text-align: center;
+    font-size: 500%;
+    font-weight: 50;
+    font-family: "Italiana", serif;
+
+}
+
+#book-line{
+    width: 5em;
+    height: 1px;
+    background-color: black;
+    margin: 0 auto;
+}
+
+form input{
+    width: 20em;
+    height: 4em;
+    background-color: #ffffff25;
+    border-color: white;
+    border-style: double;
+    margin: 2em;
+    font-family: "Gotu", serif;
+    color: black;
+    letter-spacing: 1px;
+}
+
+form label{
+    font-family: "Gotu", serif;
+    font-size: 100%;
+    color: black;
+    margin: 2em;
+}
+
+
+select#people, select#time{
+    width: 20em;
+    height: 4em;
+    border: white 2px;
+    border-style: double;
+    background-color: #ffffff25;
+    margin: 2em;
+    font-family: "Gotu", serif;
+}
+
+option{
+    background-color: black;
+    color: white;
+    font-family: "Gotu", serif;
+}
+
+
+form{
+    text-align: center;
+}
+
+input#submit{
+    width: 10em;
+    max-height: 2em;
+    background-color: #dfb48900;
+    color: #631D1D;
+    background-color: #DFB489;
+    border: none;
+    font-family: "Italiana", serif;
+    font-size: 200%;
+    text-align: center;
+}
+
+input#submit:hover{
+    background-color: #c49566;
+    transition: color, 0.2s, background-color, 1s;
+
+}
+::placeholder{
+    color: rgb(197, 197, 197);
+    padding: 1em;
+}
+
