@@ -129,10 +129,20 @@ header#texto{
     
 }
 
-#carouselCaptions1 {
+#carouselFade .carousel-inner{
     margin: 0 auto;
     padding-top: 25em;
     max-width: 20vw;
+}
+
+#carouselFade button.carousel-control-prev{
+    margin-left: 30vw;
+    margin-top: 40vh;
+}
+
+#carouselFade button.carousel-control-next{
+    margin-right: 30vw;
+    margin-top: 40vh;
 }
 
 #carousel-bottom-text1{
