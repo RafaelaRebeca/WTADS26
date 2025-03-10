@@ -7,7 +7,6 @@
     justify-content: center;
 }
 
-
 #events-blur{
     width: 50em;
     height: 40em;
@@ -46,9 +45,8 @@
     
 }
 
-main{
+body{
     background-color: #FDF5E3;
-    height: fit-content;
 }
 #main-events-upper-text{
     margin-top: 3em;
@@ -83,9 +81,11 @@ main{
     font-family: "Italianno", cursive;
     font-size: 400%;
     text-align: center;
-    pad: 1em;
+    padding: 1em;
     letter-spacing: 2px;
     color: black;
+    margin-top: 2em;
+    margin-bottom: 10em;
 }
 
 

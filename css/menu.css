@@ -40,6 +40,7 @@
 #appetizers #right-side p{
     margin: 1em;
     font-size: 200%;
+    max-width: 15em;
     font-family: "Inter", serif;
     font-weight: 120;
 }
@@ -49,9 +50,6 @@
     margin-bottom: 35em;
 }
  
-#new-appe{
-    display: flex;
-}
 
 #appetizers #right-side h2{
     font-family: "Inter", serif;
@@ -65,7 +63,8 @@
 
 #main-courses{
     background-color: #156464;
-    height: 150em;
+    height: fit-content;
+
 }
 #first-part-main-courses{
     display: flex;
@@ -81,45 +80,16 @@
     font-weight: 50;
 }
 
-.container{
-    margin: 0 auto;
-    display: flex;
-    width: 80vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.panel{
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 20vh;
-    flex: 0.5;
-    margin: 20px;
-    border-radius: 40px;
-    transition: all 700ms ease-in;
-}
-
-.panel.active{
-    flex: 0.8;
-}
-
-@media(max-width:480px){
-    .container{
-        width: 100vw;
-    }
-
-}
-
 #second-part-main-courses{
     display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 10em;
-    margin-top: 8em;
+    gap: 30em;
+    margin-top:10em;
 }
 
+#main-courses #left-side{
+    margin-top: 0em;
+}
 #main-courses #left-side h2, #main-courses #right-side h2{
     color: white;
     font-family: "Inter", serif;
@@ -135,6 +105,14 @@
     font-weight: 120;
 }
 
+#main-courses #normal-appe p{
+    max-width: 13em;
+}
+
+#main-courses #normal-appe{
+    margin-bottom: 5em;
+}
+
 
 
 /*DESSERTS SECTION ---------------------------------------------------------*/
@@ -145,6 +123,14 @@
     align-items: center;
     gap: 20em;
     background-color: #edc89d;
+}
+
+#desserts #normal-appe p{
+    max-width: 15em;
+}
+
+#desserts #normal-appe {
+    margin-bottom: 2em;
 }
 
 #desserts h1{
@@ -213,6 +199,11 @@
     font-size: 200%;
     font-family: "Inter", serif;
     font-weight: 120;
+    max-width: 15em;
+}
+
+#drinks-descriptions{
+    margin-top: 10em;
 }
 
 #extra-space-bg-drinks{

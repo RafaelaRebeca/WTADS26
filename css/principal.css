@@ -116,10 +116,9 @@ nav{
 header#texto{
     background-color: #4d0b0c;
     height: 8vh;
-    width: 200vh;
+    width: 100vw;
     position: fixed;
     z-index: 1000;
- 
 }
 
 #header-image{
@@ -130,10 +129,20 @@ header#texto{
     
 }
 
-#carouselCaptions1 {
+#carouselFade .carousel-inner{
     margin: 0 auto;
     padding-top: 25em;
     max-width: 20vw;
+}
+
+#carouselFade button.carousel-control-prev{
+    margin-left: 30vw;
+    margin-top: 40vh;
+}
+
+#carouselFade button.carousel-control-next{
+    margin-right: 30vw;
+    margin-top: 40vh;
 }
 
 #carousel-bottom-text1{
@@ -163,7 +172,7 @@ header#texto{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20em;
+    gap: 15em;
 }
 
 h1#title{
@@ -174,9 +183,13 @@ h1#title{
 }
 
 p#text{
-    max-width: 30em;
-    font-size: 300%;
+    max-width: 20em;
+    text-align: center;
+    font-size: 250%;
     font-family: "Italiana", serif;
+    letter-spacing: 2px;
+    margin-top: 5em;
+    margin-bottom: 5em;
 }
 
 
