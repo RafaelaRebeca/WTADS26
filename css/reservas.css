@@ -5,7 +5,7 @@
 
 #bg-reservas{
     height: fit-content;
-    background-image: url(../imagens/book-image.avif);
+    background-image: url(../imagens/reservas-header-image.png);
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -21,7 +21,7 @@
 }
 
 #reservas h1{
-    color: black;
+    color: rgb(63, 49, 49);
     text-align: center;
     font-size: 500%;
     font-weight: 50;
@@ -32,7 +32,7 @@
 #book-line{
     width: 5em;
     height: 1px;
-    background-color: black;
+    background-color: blanchedalmond;
     margin: 0 auto;
 }
 

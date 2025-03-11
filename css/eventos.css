@@ -45,8 +45,8 @@
     
 }
 
-body{
-    background-color: #FDF5E3;
+main{
+    background-color: #fdf5e3;
 }
 #main-events-upper-text{
     margin-top: 3em;
@@ -86,6 +86,16 @@ body{
     color: black;
     margin-top: 2em;
     margin-bottom: 10em;
+}
+
+#carouselCaptions2 button.carousel-control-prev{
+    margin-left: 1vw;
+    margin-top: 1vh;
+}
+
+#carouselCaptions2 button.carousel-control-next{
+    margin-right: 1vw;
+    margin-top: 1vh;
 }
 
 
